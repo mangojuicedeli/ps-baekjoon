@@ -8,7 +8,7 @@ public class Q11052 {
 		Scanner sc = new Scanner(System.in);
 		int num = sc.nextInt();
 		int[] prices = new int[num+1];
-		for (int i = 1; i < prices.length; i++) {
+		for (int i = 1; i < prices.length; i++) { // 인덱스를 활용할 때는 분명하게 1이라고 명시해주자. 습관적으로 0부터 시작 X
 			prices[i] = sc.nextInt();
 		}
 		sc.close();
